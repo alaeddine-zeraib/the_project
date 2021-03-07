@@ -21,7 +21,7 @@ export default function Login() {
 
 
                     {/* Sign up form */}
-                    <div className="sign-up-form">
+                    <div className="form sign-up-form">
                         <div className="wrapper">
                             <form action="/">
                                 <h1>Sign up</h1>
@@ -38,16 +38,18 @@ export default function Login() {
 
                     {/* Overlay Container */}
                     <div className="overlay-container">
-                        <div className="overlay-left">
-                            <h1>Create Account</h1>
-                            <p>Or</p>
-                            <button>Log In</button>
-                        </div>
+                        <div className="overlay">
+                            <div className="overlay-left">
+                                <h1>Create Account</h1>
+                                <p>Or</p>
+                                <button>Log In</button>
+                            </div>
 
-                        <div className="overlay-right">
-                            <h1>Please, Log In</h1>
-                            <p>Or</p>
-                            <button>Create Account</button>
+                            <div className="overlay-right">
+                                <h1>Please, Log In</h1>
+                                <p>Or</p>
+                                <button>Create Account</button>
+                            </div>
                         </div>
                     </div>
                 </div>
